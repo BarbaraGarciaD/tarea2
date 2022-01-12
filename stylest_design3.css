@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 10vw;
+    background-color: yellow;
+}
+h1{
+    font-size: 4.1vw;
+    color:black;
+    margin: 2vw;
+    padding: 1vw;
+    padding-left: 25vw;
+    padding-right: 2vw;
+    position: absolute;
+    background-color: transparent;
+    text-align: right;
+}
+img[alt="NYSL-logo"]
+{
+    width: 15vw; 
+    margin-left: 2%;
+    margin-top: 2%;
+    position:absolute
+}
+img[alt="kind playing soccer"]
+{
+    width:100%;
+    margin-top: 0vw;
+}
+#topic
+{
+    margin-top: -1vw;
+    background-color: rgb(175, 10, 10);
+}
+h2{
+    font-size: 3.5vw; 
+    color:white; 
+    margin: 0vw;
+    padding: 1vw;
+    text-align: center;
+}
+#barra-lateral{
+    width: 24%;
+    height: 75vw;
+    background-color: rgb(238, 183, 183);
+}
+nav[id="nav"]{
+    font-size: 3vw;
+    font-weight: bold;
+}
+#box{
+    width: 25vw;
+    height: 7vw;
+    border: 0.2vw solid black;
+    background-color: rgb(165, 162, 162);
+    position: absolute;
+    margin-top: 10vw;
+    display: flex;
+    align-items:center;
+}
+a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    margin-left: 2vw;
+}
+a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+    background-color: pink;
+    text-decoration: underline;
+}
+div[id="schedule"]
+{
+    font-size: 3vw;
+    height: 75vw;
+    padding-left: 10vw;
+    margin-left: 20vw;
+    margin-top: -75vw;
+    position: absolute;
+    display: flex;
+    align-items:center;
+}
+div[id="Mission"]
+{
+    font-size: 2.5vw;
+    height: 75vw;
+    padding-left: 10vw;
+    margin-left: 20vw;
+    margin-top: -75vw;
+    text-align: justify;
+    margin-right:5%;
+    position: absolute;
+}
+div[id="contact"]{
+    font-size: 3vw;
+    height: 75vw;
+    padding-left: 10vw;
+    margin-left: 20vw;
+    margin-top: -75vw;
+    position: absolute;
+}
+#box-end{
+    width: 100%;
+    height: 6vw;
+    background-color: rgb(175, 10, 10);
+    margin-top: 0vw;
+}
